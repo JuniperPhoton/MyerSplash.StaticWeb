@@ -35,7 +35,7 @@ body{
     padding: 0;
     margin: auto;
     background: white;
-    font-family: Microsoft YaHei;
+    font-family: Droid Sans;
 }
 .bodyDiv {
     height: auto;
@@ -99,7 +99,6 @@ body{
     margin: 0 auto;
     height: auto;
     font-size: 20px;
-    font-family: Microsoft YaHei;
 }
 
 .contentDiv {
@@ -117,7 +116,6 @@ body{
 .content1 {
     font-size: 25px;
     color: #436998;
-    font-family: Microsoft YaHei;
     width: 500px;
     margin-top: 20px;
     text-align: left;
@@ -153,7 +151,6 @@ body{
 .title {
     font-weight: 700;
     color: #436998;
-    font-family: Microsoft YaHei;
     margin-left: -5;
     margin-top: 30px;
     font-size: 30px;
@@ -190,13 +187,13 @@ body{
         font-size: 16px;
     }
     div.secondDiv{
-     top:-300;   
+     top:-450;   
     }
 } 
 
 @media screen and (max-height:500px){
     div.secondDiv{
-        top:-300;
+        top:-450;
     }
     div.rootDiv{
       height: 600px;
@@ -234,6 +231,13 @@ body{
     background: #3edad6;
 }
 
+#btn5 {
+    background: #53A2DA;
+}
+#btn5:hover{
+    background: #3F84B5;
+}
+
 #a1 {
     background: #4a83c9;
 }
@@ -251,7 +255,7 @@ body{
 
 
 .rootDiv {
-    background-image:url('../assets/back.jpg');
+    background-image:url('../assets/background.jpg');
     background-repeat:no-repeat;
     background-size:cover;
     height: 100%;
@@ -261,13 +265,11 @@ body{
 }
 
 .subTitle {
-    font-weight: 100;
+    font-weight: 50;
     color: white;
-    font-family: Microsoft YaHei;
     margin-top: -15;
     font-size: 18px;
     opacity: 0.6;
-    
 }
 
 .a2 {
@@ -293,7 +295,7 @@ body{
     position:absolute;
     height:130px;
     margin:auto;
-    top:-300;
+    top:-450;
     left:0;
     right:0;
     bottom:0;
